@@ -1,1 +1,1 @@
-pip install transformers
+pip install git+https://github.com/huggingface/transformers
