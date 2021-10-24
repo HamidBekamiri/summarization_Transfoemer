@@ -33,7 +33,7 @@ def generate_chunks(inp_str):
 
 summarizer = load_summarizer()
 st.title("Summarize Text")
-sentence = st.text_area('Please paste your article :', height=30)
+sentence = st.text_area('Please paste the interview text:', height=30)
 button = st.button("Summarize")
 
 max = st.sidebar.slider('Select max', 50, 500, step=10, value=150)
