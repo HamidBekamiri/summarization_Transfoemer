@@ -32,7 +32,7 @@ def generate_chunks(inp_str):
 
 
 summarizer = load_summarizer()
-st.title("Summarize Text")
+st.title("Summarize Interview Text")
 sentence = st.text_area('Please paste the interview text:', height=30)
 button = st.button("Summarize")
 
