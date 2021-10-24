@@ -3,7 +3,7 @@ from transformers import pipeline
 
 @st.cache(allow_output_mutation=True)
 def load_summarizer():
-    model = pipeline("summarization", device=0)
+    model = pipeline("summarization", device=-1)
     return model
 
 
